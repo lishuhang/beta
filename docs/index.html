@@ -10,19 +10,9 @@
     <title>航通社 lishuhang.me | 你应该知道的历史、现在和未来</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple" id="theme">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
     <link rel="stylesheet" href="assets/css/main.css">
     
-    <script>
-    document.getElementById('switch').onclick = function() {
-  if (document.getElementById('theme').href == "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css") {
-    document.getElementById('theme').href = "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css";
-  } else {
-    document.getElementById('theme').href = "https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css";
-  }
-};
-    </script>
-
     <!-- Alternate Stylesheets -->
     <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css" title="Defaults">
     <link rel="stylesheet alternate" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="Simple Dark">
@@ -34,6 +24,20 @@
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/pure.css"> -->
 </head>
 
+<script>
+function changeCSS(cssFile, cssLinkIndex) {
+
+    var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+
+    var newlink = document.createElement("link");
+    newlink.setAttribute("rel", "stylesheet");
+    newlink.setAttribute("type", "text/css");
+    newlink.setAttribute("href", cssFile);
+
+    document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+}
+</script>
+
 <body>
     <div id="app"></div>
 
@@ -44,7 +48,7 @@
             // GENERAL
             // -----------------------------------------------------------------
             name          : '航通社 lishuhang.me',
-            repo            : 'https://github.com/lishuhang/beta',
+            //repo            : 'https://github.com/lishuhang/beta',
             coverpage   : 'cover.md',
             homepage   : 'index.md',
             loadSidebar : 'sidebar.md',
