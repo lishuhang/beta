@@ -63,7 +63,3 @@
 本站使用 [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable) 搭建。[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/jhildenbiddle/docsify-themeable/blob/master/LICENSE)
 
 *最近更新：2020.4.17*
-
-<!-- GitHub Buttons -->
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>
