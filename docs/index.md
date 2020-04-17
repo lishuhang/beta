@@ -1,5 +1,7 @@
 # 欢迎访问航通社网站
 
+![航通社 logo](/assets/img/logo-horizontal-blue.svg)
+
 *航通社——你应该知道的历史、现在和未来*
 
 ## 简介
