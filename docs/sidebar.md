@@ -10,6 +10,8 @@
 
 ---
 **专题**
+- [操作系统](/special/os)
+- [锤子](/special/smartisan)
 - [视觉中国](/special/vcg)
 
 ---
