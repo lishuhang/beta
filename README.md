@@ -1,32 +1,19 @@
-## docsify
+# 书摘 - 航通社
 
-> A magical documentation site generator.
+> 正在迁移中
 
-## What it is
+## 使用方法
 
-docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](deploy.md).
+一个文摘语料库，可在搜索框全文检索。
 
-See the [Quick start](quickstart.md) guide for more details.
+今后完善之后，会逐渐把这些书摘里被航通社文章引用过的条目做标记。
 
-## Features
+## 常用关键字
 
-- No statically built html files
-- Simple and lightweight (~21kB gzipped)
-- Smart full-text search plugin
-- Multiple themes
-- Useful plugin API
-- Emoji support
-- Compatible with IE11
-- Support server-side rendering ([example](https://github.com/docsifyjs/docsify-ssr-demo))
+- 中国
 
-## Examples
+## 捐赠
 
-Check out the [Showcase](https://github.com/docsifyjs/awesome-docsify#showcase) to see docsify in use.
+如果你觉得这对你有用，请用支付宝、微信扫二维码捐款
 
-## Donate
-
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](https://github.com/QingWei-Li/donate). :heart:
-
-## Community
-
-Users and the development team are usually in the [Gitter chat room](https://gitter.im/docsifyjs/Lobby).
+![](https://lishuhang.me/img/2020/qrdonate.jpg)
